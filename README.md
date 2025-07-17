@@ -1,7 +1,3 @@
-Based on the content of your document **(Grocery Web App.docx)** and the uploaded ZIP file, here is a fully structured, professional, and complete `README.md` for your project:
-
----
-
 ### ✅ `README.md` for Grocery Web App
 
 ````markdown
