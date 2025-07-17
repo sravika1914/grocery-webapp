@@ -1,5 +1,3 @@
-### ✅ `README.md` for Grocery Web App
-
 ````markdown
 # 🛒 Grocery Web App
 
@@ -223,8 +221,4 @@ Licensed under the MIT License.
 
 > 💬 *“Experience the future of grocery shopping — from your screen to your doorstep!”*
 
-```
-
----
-
-
+````
