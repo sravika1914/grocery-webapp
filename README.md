@@ -1,4 +1,3 @@
-````markdown
 # 🛒 Grocery Web App
 
 Welcome to the **Grocery Web App** – your one-stop virtual supermarket. This full-stack application allows users to shop for fresh groceries online with features like product search, cart management, order tracking, and admin dashboard management.
@@ -36,64 +35,63 @@ Welcome to the **Grocery Web App** – your one-stop virtual supermarket. This f
 
 ## 🧱 Tech Stack
 
-| Layer        | Technology                    |
-|--------------|-------------------------------|
-| Frontend     | React.js, Bootstrap, React Router |
-| Backend      | Node.js, Express.js           |
-| Database     | MongoDB, Mongoose             |
-| Authentication | JWT, bcrypt                  |
-| Styling      | CSS, React-Bootstrap          |
+| Layer          | Technology                     |
+|----------------|--------------------------------|
+| Frontend       | React.js, Bootstrap, React Router |
+| Backend        | Node.js, Express.js            |
+| Database       | MongoDB, Mongoose              |
+| Authentication | JWT, bcrypt                    |
+| Styling        | CSS, React-Bootstrap           |
 
 ---
 
 ## 🧰 Setup Instructions
 
 ### 🔧 Backend
+
 ```bash
 cd backend
 npm install
 npm start
-````
-
-### 💻 Frontend
-
-```bash
+💻 Frontend
+bash
+Copy
+Edit
 cd frontend
 npm install
 npm run dev
-```
+Access the app at: http://localhost:5173
 
-Access the app at: `http://localhost:5173`
+🧪 Sample User Flow (Use Case)
+Meet Priya, a busy professional who wants fresh groceries delivered:
 
----
+Signs up and logs in
 
-## 🧪 Sample User Flow (Use Case)
+Browses through categorized products
 
-**Meet Priya**, a busy professional who wants fresh groceries delivered:
+Adds items to cart
 
-1. Signs up and logs in
-2. Browses through categorized products
-3. Adds items to cart
-4. Pays using secure gateway
-5. Tracks her order in real time
-6. Rates products and reorders easily
+Pays using secure gateway
 
----
+Tracks her order in real time
 
-## 🏗️ Architecture Overview
+Rates products and reorders easily
 
-The app follows a **client-server model**:
+🏗️ Architecture Overview
+The app follows a client-server model:
 
-* **Frontend (React)** handles UI & user interaction
-* **Backend (Express)** handles logic, APIs, database access
-* **MongoDB** stores users, products, orders, etc.
-* Communication via **RESTful APIs**
+Frontend (React) handles UI & user interaction
 
----
+Backend (Express) handles logic, APIs, and DB access
 
-## 🧮 Database Models (Schemas)
+MongoDB stores users, products, orders, etc.
 
-```javascript
+Communication via RESTful APIs
+
+🧮 Database Models (Schemas)
+javascript
+Copy
+Edit
 User: { firstname, lastname, username, email, password }
 
 Product: { productname, description, price, image, category, stock, rating }
@@ -103,43 +101,44 @@ Category: { name, description }
 Order: { user, products, total, status, address, createdAt }
 
 AddToCart: { userId, productId, quantity }
-```
+📋 Key Functionalities
+🧾 Product catalog with categories and filters
 
----
+🛒 Shopping cart and multi-method checkout
 
-## 📋 Key Functionalities
+📦 Real-time order tracking
 
-* 🧾 Product catalog with categories and filters
-* 🛒 Shopping cart and multi-method checkout
-* 📦 Real-time order tracking
-* ⭐ Ratings and reviews
-* 🧑‍💻 Admin dashboard for order & inventory management
+⭐ Ratings and reviews
 
----
+🧑‍💻 Admin dashboard for order & inventory management
 
-## ⚙️ Project Milestones
+⚙️ Project Milestones
+Project Setup – React, Node.js, MongoDB configured
 
-1. **Project Setup** – React, Node.js, MongoDB configured
-2. **Backend Development** – Routes, models, APIs created
-3. **Frontend UI** – Components, navigation, routing setup
-4. **Database Integration** – MongoDB models linked
-5. **Authentication** – JWT login, register, logout
-6. **Testing & Bug Fixes** – Final review and improvements
+Backend Development – Routes, models, APIs created
 
----
+Frontend UI – Components, navigation, routing setup
 
-## 🚀 Getting Started (Quick Start)
+Database Integration – MongoDB models linked
 
-### Prerequisites
+Authentication – JWT login, register, logout
 
-* Node.js: [Install](https://nodejs.org/)
-* MongoDB: [Install](https://www.mongodb.com/try/download/community)
-* Git (optional): [Install](https://git-scm.com/)
-* Code Editor: VS Code / Sublime / WebStorm
+Testing & Bug Fixes – Final review and improvements
 
-### Run Instructions
+🚀 Getting Started (Quick Start)
+Prerequisites
+Node.js: Install
 
-```bash
+MongoDB: Install
+
+Git (optional): Install
+
+Code Editor: VS Code / Sublime / WebStorm
+
+Run Instructions
+bash
+Copy
+Edit
 git clone <your-repo-url>
 cd grocery-webapp
 
@@ -152,73 +151,60 @@ npm start
 cd ../frontend
 npm install
 npm run dev
-```
+👨‍💻 Roles & Responsibilities
+Users
+Register, log in, shop, and place orders
 
----
+Manage their profile, orders, and reviews
 
-## 👨‍💻 Roles & Responsibilities
+Admin
+Add/edit/delete products
 
-### Users
+Manage orders, users, and inventory
 
-* Register, log in, shop, and place orders
-* Manage their profile, orders, and reviews
+View analytics and customer feedback
 
-### Admin
+🛠️ Packages Used
+Frontend:
+Axios
 
-* Add/edit/delete products
-* Manage orders, users, and inventory
-* View analytics and customer feedback
+React Router DOM
 
----
+React Icons
 
-## 🛠️ Packages Used
+Bootstrap
 
-### Frontend:
+React-Bootstrap
 
-* Axios
-* React Router DOM
-* React Icons
-* Bootstrap
-* React-Bootstrap
+Backend:
+Express
 
-### Backend:
+Mongoose
 
-* Express
-* Mongoose
-* CORS
-* Bcrypt
-* Dotenv
-* JSON Web Token (JWT)
+CORS
 
----
+Bcrypt
 
-## 📂 Project Structure
+Dotenv
 
-```
+JSON Web Token (JWT)
+
+📂 Project Structure
+bash
+Copy
+Edit
 grocery-webapp/
 │
 ├── frontend/      # React client
 ├── backend/       # Express server & MongoDB models
 └── README.md
-```
-
----
-
-## 🙋‍♀️ Author
-
-**Sravika Kadali**
+🙋‍♀️ Author
+Sravika Kadali
 Cybersecurity Engineering Student | Full Stack Developer
-📧 [sravikakadali@gmail.com](mailto:sravikakadali@gmail.com)
-🔗 [GitHub](https://github.com/sravika1914)
+📧 sravikakadali@gmail.com
+🔗 GitHub
 
----
-
-## 📄 License
-
+📄 License
 Licensed under the MIT License.
 
----
-
-> 💬 *“Experience the future of grocery shopping — from your screen to your doorstep!”*
-
-````
+💬 “Experience the future of grocery shopping — from your screen to your doorstep!”
